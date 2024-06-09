@@ -1,9 +1,9 @@
 <script setup lang="ts">
 defineOptions({
-  name: "Welcome"
+  name: "Editor"
 });
 </script>
 
 <template>
-  <h1>My Admin（基于 PureAdmin 的学习 Fork）</h1>
+  <h1>加油</h1>
 </template>
