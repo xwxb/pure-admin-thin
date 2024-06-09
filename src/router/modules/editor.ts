@@ -1,8 +1,10 @@
-// 最简代码，也就是这些字段必须有
+// 最简代码，也就是这些字段必须有information
 export default {
-  path: "/edtior",
+  path: "/editor",
+  name: "Editor",
   meta: {
-    title: "编辑器"
+    title: "编辑器",
+    icon: "ep:edit"
   },
   children: [
     {
