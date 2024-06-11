@@ -4,7 +4,7 @@ import ReQrcode from "@/components/ReQrcode";
 import { useUserStoreHook } from "@/store/modules/user";
 import { onMounted, ref } from "vue";
 
-const api = "http://localhost:12301/auth/qrcode/uuid";
+const api = "http://47.94.10.223:12301/auth/qrcode/uuid";
 const qrCodeData = ref("");
 
 const refreshQRCode = () => {
