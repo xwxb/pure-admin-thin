@@ -5,5 +5,5 @@ defineOptions({
 </script>
 
 <template>
-  <h1>Pure-Admin-Thin（非国际化版本）</h1>
+  <h1>My Admin（基于 PureAdmin 的学习 Fork）</h1>
 </template>
