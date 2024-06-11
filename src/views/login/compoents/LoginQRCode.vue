@@ -24,7 +24,7 @@ onMounted(() => {
   }, 20000);
 });
 
-const checkAPI = "http://localhost:12301/auth/qrcode/status";
+const checkAPI = "http://47.94.10.223:12301/auth/qrcode/status";
 // 每三秒检查一次，如果返回结果是 data.message == "success" 则登录成功
 setInterval(() => {
   fetch(checkAPI)
